@@ -1,0 +1,89 @@
+body {
+	margin-top: 30px;
+	background-image: url('bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+.container {
+	background-color: #eaeaea; 
+	width: 500px;
+	height: 600px;
+	margin: 2px auto;
+	border-radius: 10px;
+	border:  2px solid grey;
+	opacity: 0.7;
+	transition: 1s;
+}
+.container:hover {
+	background-color: #eaeaea; 
+	width: 500px;
+	height: 600px;
+	margin: 2px auto;
+	border-radius: 10px;
+	border:  2px solid grey;
+	opacity: 0.9;
+	transition: 1s;
+}
+
+.header h3{
+	padding-top: 10px;
+	text-align: center;
+	color: black;
+	font-family: Droid;
+	text-shadow: 1px 3px 3px rgb(234, 224, 220);	
+}
+
+.content {
+	width: 400px;
+	height: 400px;
+	margin: 10px auto;
+}
+
+.content .button{
+	width: 70px;
+	height: 70px;
+}
+.content .button:hover{
+	background-color: blue;
+	color: white;
+}
+.content .button2{
+	width: 70px;
+	height: 60px;
+}
+
+.content input {
+	width: 300px;
+	height: 40px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Droid;
+}
+
+.content input.tampil {
+	text-align: right;
+}
+
+.content h3{
+	text-align: center;
+	color: black;
+	font-family: Droid;
+	text-shadow: 1px 2px 5px rgb(150, 150, 150);
+}
+
+
+#spinner{
+	font-size: 70px;
+	position: absolute;
+	text-align: center;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	-ms-border-radius: 100%;
+	-o-border-radius: 100%;
+	border-radius: 100%;
+	color: #6608F2;
+}
+
